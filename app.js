@@ -1,4 +1,4 @@
-const name = 'student01';
+const name = '장한성';
 const hour = new Date().getHours();
 const greeting = document.querySelector('#greeting');
 const countBox = document.querySelector('#count');
@@ -20,7 +20,7 @@ function hello(hour) {
 
 function countUp() {
   count = count + 1;
-  countBox.textContent = `클릭 ${count}회`;
+  countBox.textContent = `클릭 ${count}회`;                     
 }
 
 greeting.textContent = `${greet(name)} ${hello(hour)}`;
